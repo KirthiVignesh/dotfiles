@@ -16,7 +16,7 @@ zplug "zpm-zsh/colorize", use:colorize.plugin.zsh, from:github, as:plugin
 zplug "zsh-users/zsh-autosuggestions", use:zsh-autosuggestions.zsh, from:github, as:plugin
 
 #zsh-theme
-zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
+#zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 
 #asynchronous support
 zplug "mafredri/zsh-async", from:github, use:async.zsh
@@ -40,5 +40,8 @@ setopt appendhistory
 bindkey "^[[3~" delete-char
 #loading the modules
 zplug load 
+
+#rust starship prompt
+eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

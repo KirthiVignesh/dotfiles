@@ -67,4 +67,4 @@ key_bindings:
     keys: ctrl-A B C D
 
   - action: SelectInteractive
-    keys: ctrl-i o
+    keys: ctrl-e r

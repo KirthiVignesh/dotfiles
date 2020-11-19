@@ -23,13 +23,13 @@ zplug "mafredri/zsh-async", from:github, use:async.zsh
 #colorise man pages
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 #aliases
-alias ls='exa --git --group-directories-first --time-style=long-iso'
-alias l='ls -lbF'
-alias la='ls -la'
-alias llm='ll --sort=modified'
-alias ll='ls -lbhHigUmuSa'
-alias lx='ls -lbhHigUmuSa@'
-alias tree='exa -RT'
+#alias ls='exa --git --group-directories-first --time-style=long-iso'
+#alias l='ls -lbF'
+#alias la='ls -la'
+#alias llm='ll --sort=modified'
+#alias ll='ls -lbhHigUmuSa'
+#alias lx='ls -lbhHigUmuSa@'
+#alias tree='exa -RT'
 
 #zsh-history setting
 HISTFILE=~/.zsh_history

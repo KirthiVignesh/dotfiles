@@ -27,10 +27,13 @@ zplug "plugins/colored-man-pages", from:oh-my-zsh
 #alias l='ls -lbF'
 #alias la='ls -la'
 #alias llm='ll --sort=modified'
-#alias ll='ls -lbhHigUmuSa'
+alias ll='ls -lbhHigUmuSa'
 #alias lx='ls -lbhHigUmuSa@'
 #alias tree='exa -RT'
+alias ex="exa --git --long "
+alias exa="exa -all"
 
+#zsh-history setting
 #zsh-history setting
 HISTFILE=~/.zsh_history
 HISTSIZE=10000

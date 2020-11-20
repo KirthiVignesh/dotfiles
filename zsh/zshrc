@@ -47,4 +47,7 @@ zplug load
 #rust starship prompt
 eval "$(starship init zsh)"
 
+#exporting cargo binaries
+export PATH=$PATH:/home/zero/.cargo/bin
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

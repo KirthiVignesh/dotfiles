@@ -64,7 +64,7 @@
 # - multi-key sequences separated by spaces
 key_bindings:
   - action: Disconnect
-    keys: ctrl-A B C D
+    keys: ctrl-Q ctrl-W 
 
   - action: SelectInteractive
-    keys: ctrl-1
+    keys: ctrl-Q ctrl-A

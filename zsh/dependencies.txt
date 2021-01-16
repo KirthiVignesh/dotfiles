@@ -1,0 +1,3 @@
+zplug
+fzf
+starship

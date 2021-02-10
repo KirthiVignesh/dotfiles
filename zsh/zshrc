@@ -13,7 +13,7 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zpm-zsh/colorize", use:colorize.plugin.zsh, from:github, as:plugin
 
 #locally sourcing autosuggest
-zplug "zsh-users/zsh-autosuggestions", use:zsh-autosuggestions.zsh, from:github, as:plugin
+zplug "marlonrichert/zsh-autocomplete", use:zsh-autocomplete.plugin.zsh, from:github, as:plugin
 
 #zsh-theme
 #zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme

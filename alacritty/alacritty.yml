@@ -98,28 +98,28 @@ scrolling:
   # Scrolling distance multiplier.
   #multiplier: 3
 
-# Font configuration
+#Font configuration
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Fira Code 
+    family: FuraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
 
-  # The bold font face
+# The bold font face
   bold:
-    family: Fira Code
+    family: FuraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: Fira Code
+    family: FuraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Italic
 
   #Point size
-  size: 12.0
+  size: 11.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -1670,4 +1670,3 @@ debug:
 
   # Print all received window events.
   print_events: false
-

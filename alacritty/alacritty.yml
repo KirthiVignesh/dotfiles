@@ -1196,7 +1196,7 @@ cyber_punk_neon: &cyber_punk_neon
       cyan:    '0x89b482'
       white:   '0xdfbf8e'
 
-colors: *tomorrow_night_bright
+colors: *ayu_dark
 
 # Bell
 #
@@ -1558,10 +1558,10 @@ key_bindings:
   - { key: Copy,                                 action: Copy           }
   #- { key: L,         mods: Control,             action: ClearLogNotice }
   #- { key: L,         mods: Control, mode: ~Vi,  chars: "\x0c"          }
-  #- { key: PageUp,    mods: Shift,   mode: ~Alt, action: ScrollPageUp,  }
-  #- { key: PageDown,  mods: Shift,   mode: ~Alt, action: ScrollPageDown }
-  #- { key: Home,      mods: Shift,   mode: ~Alt, action: ScrollToTop,   }
-  #- { key: End,       mods: Shift,   mode: ~Alt, action: ScrollToBottom }
+  - { key: PageUp,    mods: Shift,   mode: ~Alt, action: ScrollPageUp,  }
+  - { key: PageDown,  mods: Shift,   mode: ~Alt, action: ScrollPageDown }
+  - { key: Home,      mods: Shift,   mode: ~Alt, action: ScrollToTop,   }
+  - { key: End,       mods: Shift,   mode: ~Alt, action: ScrollToBottom }
 
   # Vi Mode
   #- { key: Space,  mods: Shift|Control, mode: Vi, action: ScrollToBottom          }

@@ -13,7 +13,7 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zpm-zsh/colorize", use:colorize.plugin.zsh, from:github, as:plugin
 
 #locally sourcing autosuggest
-zplug "marlonrichert/zsh-autocomplete", use:zsh-autocomplete.plugin.zsh, from:github, as:plugin
+zplug "zsh-users/zsh-autosuggestions", use:zsh-autosuggestions.plugin.zsh, from:github, as:plugin
 
 #add fzf for history
 zplug "joshskidmore/zsh-fzf-history-search", use:zsh-fzf-history-search.zsh, from:github, as:plugin
@@ -53,5 +53,7 @@ eval "$(starship init zsh)"
 
 #exporting cargo binaries
 export PATH=$PATH:/home/zero/.cargo/bin
+export CHROME_EXECUTABLE=/snap/bin/chromium
+export PATH=$PATH:/home/zero/bin/flutter/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
